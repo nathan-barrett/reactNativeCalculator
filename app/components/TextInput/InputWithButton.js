@@ -5,7 +5,6 @@ import color from 'color';
 
 import styles from './styles';
 
-
 const InputWithButton = (props) => {
   const underlayColor = color(styles.$buttonBackgroundColorBase).darken(
     styles.$buttonBackgroundColorModifier,
