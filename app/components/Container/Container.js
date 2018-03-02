@@ -6,7 +6,7 @@ import styles from './styles';
 
 const Container = ({ children }) => (
   <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-    <View 
+    <View
       style={styles.container}>
       {children}
     </View>
